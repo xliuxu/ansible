@@ -1,6 +1,15 @@
 Ansible Changes By Release
 ==========================
 
+<a id="2.3.4"></a>
+
+## 2.3.4 "Ramble On" - TBD
+
+### Bugfixes
+* Fix setting of environment in a task that uses a loop:
+  https://github.com/ansible/ansible/issues/32685
+
+
 <a id="2.3.3"></a>
 
 ## 2.3.3 "Ramble On" - TBD
