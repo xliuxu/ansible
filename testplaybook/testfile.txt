@@ -1,0 +1,7 @@
+PING www.a.shifen.com (61.135.169.121): 56 data bytes
+64 bytes from 61.135.169.121: icmp_seq=0 ttl=48 time=21.136 ms
+64 bytes from 61.135.169.121: icmp_seq=1 ttl=48 time=67.323 ms
+64 bytes from 61.135.169.121: icmp_seq=2 ttl=48 time=70.422 ms
+64 bytes from 61.135.169.121: icmp_seq=3 ttl=48 time=123.890 ms
+64 bytes from 61.135.169.121: icmp_seq=4 ttl=48 time=38.092 ms
+64 bytes from 61.135.169.121: icmp_seq=5 ttl=48 time=47.510 ms
