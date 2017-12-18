@@ -4,17 +4,17 @@
 
   tasks:
   - name: test sleep async
-    shell: ping www.baidu.com -c 10 > /tmp/testfile
-    async: 20
+    shell: ping -i 0.1 www.baidu.com -c 200 > /tmp/testfile
+    async: 360000
     poll: 0
     register: sleep_test
-
 
   - name: test get log async
     async_log:
       jid: "{{ sleep_test.ansible_job_id }}"
       tail_file: "/tmp/testfile"
+      tag: "ping"
     register: job_result
     retries: 999999
-    delay: 1
+    delay: 2
     until: job_result.finished
